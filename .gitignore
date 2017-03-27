@@ -27,3 +27,9 @@
 *.exe
 *.out
 *.app
+
+# Other file
+*.pdf
+*.pptx*
+*.ppt*
+out*
