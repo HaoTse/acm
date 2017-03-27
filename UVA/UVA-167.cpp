@@ -1,4 +1,5 @@
 #include <cstdio>
+#include <cstdlib>
 #include <vector>
 
 #define N 8
@@ -41,14 +42,14 @@ int main(){
 
         int ans = 0;
 
-        for(int i = 0; i < N; i++){
+        for(int i = 0; i < cheese.size(); i++){
             int tmp_sum = 0;
             for(int j = 0; j < N; j++){
                 tmp_sum += board[j][cheese[i][j]];
             }
             ans = (ans > tmp_sum) ? ans : tmp_sum;
         }
-        printf("%d\n", ans);
+        printf("%5d\n", ans);
     }
 
     return 0;
