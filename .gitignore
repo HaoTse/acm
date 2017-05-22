@@ -33,4 +33,5 @@
 *.pptx*
 *.ppt*
 out*
+in*
 *.vs*
