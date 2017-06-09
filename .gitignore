@@ -35,3 +35,5 @@
 out*
 in*
 *.vs*
+
+.DS_Store
